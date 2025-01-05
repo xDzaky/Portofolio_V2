@@ -1,3 +1,4 @@
+// Navbar
 document.addEventListener('DOMContentLoaded', () => {
     const header = document.querySelector('.header');
     const sidebar = document.querySelector('.sidebar');
@@ -73,6 +74,46 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // END Navbar
+
+  // Effect H1
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const typewriter = document.getElementById("typewriter");
+    const texts = [
+      "Hello, I’am",
+      "Hello 👋 , I’am",
+    ];
+    let textIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+
+    function typeEffect() {
+      const currentText = texts[textIndex];
+      const displayText = isDeleting
+        ? currentText.substring(0, charIndex--)
+        : currentText.substring(0, charIndex++);
+
+      typewriter.textContent = displayText;
+
+      if (!isDeleting && charIndex === currentText.length) {
+        // Pause before deleting
+        setTimeout(() => (isDeleting = true), 1000);
+      } else if (isDeleting && charIndex === 0) {
+        // Move to the next text
+        isDeleting = false;
+        textIndex = (textIndex + 1) % texts.length;
+      }
+
+      // Set typing speed
+      const typingSpeed = isDeleting ? 200 : 200;
+      setTimeout(typeEffect, typingSpeed);
+    }
+
+    typeEffect();
+  });
+
+  // End Effect H1
 
     // Membuka img dengan skala yg lebih besar
   document.querySelectorAll('.overlay-container img').forEach(img => {
