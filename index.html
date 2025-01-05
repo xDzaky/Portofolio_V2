@@ -26,7 +26,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <!-- Link CSS -->
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="hero.css" />
   
 </head>
 <body>
@@ -50,7 +50,11 @@
       </div>
       <div class="nav-bar">
         <ul class="sidebar">
-          <li onclick=closeSidebar() class="close"><svg xmlns="http://www.w3.org/2000/svg" height="40" viewBox="0 -960 960 960" width="40"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+          <li onclick=closeSidebar() class="close">
+            <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45">
+            <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" fill="white" />
+            </svg>
+          </li>
           <li>
             <a href="#hero" class="active">Home</a>
           </li>
@@ -84,7 +88,9 @@
             <a href="#contact">Contact</a> 
           </li>
           <li onclick=showSidebar() class="hamburger-menu">
-            <a><svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+            <svg xmlns="http://www.w3.org/2000/svg" height="45" viewBox="0 -960 960 960" width="45">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" fill="white" />
+            </svg>              
           </li>
         </ul>
       </div>
@@ -197,6 +203,7 @@
 
           <div class="card-outer"
             data-aos="zoom-in"
+            style="max-height: 500px;"
           >
             <div class="spinning-border"></div>
             <div class="card-inner">
@@ -204,8 +211,10 @@
                 src="img/project-hamburger.png"
                 width="270px"
               />
-              <h1>Web Makanan</h1>
-              <p>Ini desktipsi dari web di atas</p>
+              <h1>(Comingsoon)</h1>
+              <p style="margin-bottom: 55px;">
+                -
+              </p>
               <div class="icon">
                 <h6 class="html">HTML</h6>
                 <h6 class="css">CSS</h6>
@@ -228,8 +237,10 @@
                 src="/img/Linktree_Dzaky.png"
                 width="270px"
               />
-              <h1>Linktree</h1>
-              <p>Ini desktipsi dari web di atas</p>
+              <h1> - Linktree - </h1>
+              <p>
+                Temukan semua akun media sosial dan informasi yg terkait hanya di satu tempat.
+              </p>
               <div class="icon">
                 <h6 class="html">HTML</h6>
                 <h6 class="css">CSS</h6>
@@ -239,31 +250,6 @@
                     <a href="#" class="button"><i class="fa fa-globe"></i> Website</a>
                     <a href="#" class="button github-bt"><i class="fab fa-github"></i> Github</a>
                 </div>
-            </div>
-          </div>
-
-          <div class="card-outer"
-            data-aos="zoom-in"
-            data-aos-delay="200"
-          >
-            <div class="spinning-border"></div>
-              <div class="card-inner">
-                <img
-                  src="img/project-hamburger.png"
-                  width="270px"
-                />
-                <h1>Web Makanan</h1>
-                <p>Ini desktipsi dari web di atas</p>
-                <div class="icon">
-                  <h6 class="html">HTML</h6>
-                  <h6 class="css">CSS</h6>
-                  <h6 class="js">JavaScript</h6>
-                </div>
-                  <div class="buttons">
-                      <a href="#" class="button"><i class="fa fa-globe"></i> Website</a>
-                      <a href="#" class="button github-bt"><i class="fab fa-github"></i> Github</a>
-                  </div>
-              </div>
             </div>
           </div>
         </div>
@@ -401,7 +387,6 @@
         </div>
       </footer>
   </div>
-
 
   <script src="index.js"></script>
 
