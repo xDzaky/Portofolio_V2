@@ -401,6 +401,7 @@
       }
     }    
 
+
     @media (min-width: 768px) {
       .hero {
         flex-direction: row;
@@ -411,6 +412,7 @@
   
       .hero .text {
         max-width: 90%;
+        text-align: center;
       }
   
       .hero .profile-pic {
@@ -422,6 +424,9 @@
       .hero {
         flex-direction: column-reverse;
         align-items: center;
+        padding-right: 80px;
+        margin-left: -10px;
+        /* margin-left: -35px; */
       }
       .hero h1 {
         font-size: 40px;
@@ -429,7 +434,6 @@
       .hero h2 {
         font-size: 30px;
         width: 100%;
-        margin: 20px 0;
       }
       .hero .profile-pic {
         margin: 0 0 50px 0;
