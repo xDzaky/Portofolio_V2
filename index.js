@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
           const cellY = rect.top + rect.height / 2;
   
           const distance = getDistance(mouseX, mouseY, cellX, cellY);
-          const maxDistance = 130;
+          const maxDistance = 150;
           const intensity = Math.max(0, 1 - distance / maxDistance);
   
           cell.style.borderColor = `rgb(233, 233, 233, ${0.03 + intensity * 0.17})`;
