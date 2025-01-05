@@ -17,6 +17,10 @@
       background-size: cover;
   }
   
+  body .no-scroll {
+    overflow: hidden;
+  }
+
   /* Grid */
   
   .grid {
@@ -195,7 +199,7 @@
     @media (max-width:900px) {
   
       .hamburger-menu {
-        padding-right: 160px; 
+        padding-right: 65px; 
         display: block;
       }
   
@@ -578,16 +582,18 @@
   }
   
   .card-inner h1 {
-    font-size: 24px;
+    margin: -5px 0;
+    font-size: 20px;
     color: #ffffff;
-    margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
   }
   
   .card-inner p {
     font-size: 16px;
     color: #b0b0b0;
     text-align: center;
+    width: 80%;
+    text-align: left;
   }
   
   @keyframes spin {
