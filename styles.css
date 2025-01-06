@@ -30,14 +30,14 @@
     width: 150%;
     height: 150%;
     display: grid;
-    grid-template-columns: repeat(40, 1fr); /* Sesuai jumlah kolom */
-    grid-template-rows: repeat(15, 1fr);    /* Sesuai jumlah baris */
-    z-index: -1; /* Diletakkan di belakang konten */
-    pointer-events: none; /* Agar tidak mengganggu interaksi dengan elemen lain */
+    grid-template-columns: repeat(40, 1fr); 
+    grid-template-rows: repeat(15, 1fr);   
+    z-index: -1; 
+    pointer-events: none; 
   }
   
   .cell {
-    border: 1px solid rgba(190, 190, 190, 0.03); /* Default */
+    border: 1px solid rgba(190, 190, 190, 0.03); 
     transition: border-color 0.1s ease;
   }
   
@@ -45,7 +45,7 @@
     .grid {
       width: 280%;
       height: 120%;
-      grid-template-columns: repeat(40, 1fr); /* Sesuai jumlah kolom */
+      grid-template-columns: repeat(40, 1fr); 
       grid-template-rows: repeat(15, 1fr);
     }
   }
@@ -282,6 +282,7 @@
       font-size: 18px;
       line-height: 1.6;
       margin: 20px 0;
+      text-align: left;
     }
   
     .hero .buttons {
@@ -354,6 +355,7 @@
     }
   
     .hero .social p {
+      text-align: left;
       margin: 0;
     }
   
@@ -371,7 +373,7 @@
     .hero .social .icons a:hover {
       color: #64ffda;
     }
-  
+    
     .hero .profile-pic {
       margin-top: 3rem;
     }
@@ -426,7 +428,6 @@
         align-items: center;
         padding-right: 80px;
         margin-left: -10px;
-        /* margin-left: -35px; */
       }
       .hero h1 {
         font-size: 40px;
@@ -434,6 +435,12 @@
       .hero h2 {
         font-size: 30px;
         width: 100%;
+      }
+      .hero p {
+        text-align: center;
+      }
+      .hero .social p {
+        text-align: center;
       }
       .hero .profile-pic {
         margin: 0 0 50px 0;
@@ -457,7 +464,10 @@
       }
     }
   
+    /* END Hero Section */
+
     /* Profil Section */
+
   .about {
     padding: 6rem 6rem 5rem 5rem;
     margin: 5rem 0 6.5rem 0;
@@ -527,7 +537,10 @@
       }
   }
   
-    /* Portofolio-Showcase */
+  /* END Profil Section */
+
+  /* Portofolio-Showcase */
+
   .Porto-Show .container {
     margin: auto;
     width: 83%;
@@ -872,7 +885,10 @@
     border: 1px solid rgb(33, 47, 175);
   }
   
+  /* END Portofolio-Showcase */
+
   /* Contact */
+
   #contact {
     margin-top: 10rem;
     background-color: #0b182e;
@@ -929,7 +945,10 @@
     cursor: pointer;
   }
   
+  /* END Contact */
+
   /* Footer */
+
   footer {
     background-color: #0d1117;
     color: #c9d1d9;
@@ -988,3 +1007,5 @@
         margin-bottom: 20px;
     }
   }
+
+  /* END Footer */
