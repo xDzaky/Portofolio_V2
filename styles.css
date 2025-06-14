@@ -853,3 +853,98 @@ footer {
     }
 }
 
+/* Efek transisi untuk tombol */
+.hero .buttons a,
+.card-inner .button {
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.hero .buttons a:hover,
+.card-inner .button:hover {
+    transform: scale(1.05);
+}
+
+/* Efek hover pada kartu proyek */
+.card-outer {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-outer:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Efek transisi untuk gambar sertifikat */
+.overlay-container img {
+    transition: transform 0.3s ease;
+}
+
+.overlay-container img:hover {
+    transform: scale(1.05);
+}
+
+/* Efek transisi untuk teks */
+.about .content .text h2,
+.card-inner h1 {
+    transition: color 0.3s ease;
+}
+
+.about .content .text h2:hover,
+.card-inner h1:hover {
+    color: #52b7ea; /* Ganti warna saat hover */
+}
+
+/* Efek transisi untuk ikon sosial */
+.hero .social .icons a {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.hero .social .icons a:hover {
+    transform: scale(1.2);
+    color: #64ffda; /* Ganti warna saat hover */
+}
+
+/* Efek transisi untuk tab */
+.tab {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tab:hover {
+    background-color: rgba(24, 38, 75, 0.5);
+    color: #fff;
+}
+
+/* Efek transisi untuk sidebar */
+.header .nav-bar .sidebar {
+    transition: transform 0.3s ease;
+}
+
+/* Animasi untuk elemen saat muncul */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+[data-aos] {
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+}
+
+[data-aos].aos-animate {
+    opacity: 1;
+}
+
+/* Tambahkan efek transisi untuk footer */
+.footer {
+    transition: background-color 0.3s ease;
+}
+
+.footer:hover {
+    background-color: #0c0f12; /* Ganti warna saat hover */
+}
