@@ -27,9 +27,9 @@ Portofolio pribadi ini dibuat untuk menampilkan karya, keterampilan, dan pengala
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/xDzaky/portfolio-website.git
+   git clone https://github.com/xDzaky/Portofolio_V2.git
    ```
-2. Buka file `index.html` di browser favorit Anda
+2. Buka file `index.html` di browser Anda
 
 Atau kunjungi langsung melalui GitHub Pages (jika di-deploy):
 [Live Demo](https://xdzaky.github.io/portfolio-website)
@@ -49,22 +49,13 @@ portfolio-website/
 └── README.md         # File ini
 ```
 
-## 🤝 Berkontribusi
-
-Jika Anda ingin berkontribusi pada proyek ini, silakan buka issue atau pull request. Saya sangat terbuka untuk saran dan masukan!
-
 ## 📧 Kontak
 
-- Email: Dzkyazhar29@gmail.com
+- Email: xdzakyz.com
 - GitHub: [xDzaky](https://github.com/xDzaky)
 - Instagram: [@dzakyaz_](https://www.instagram.com/dzakyaz_)
 - TikTok: [@xdzakyx_](https://www.tiktok.com/@xdzakyx_)
 - YouTube: [DzakyA](https://www.youtube.com/@DzakyA)
-
-## 📜 Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
-
 ---
 
 © 2025 Achmad Dzaki Habibullah Al Azhar. All rights reserved.
