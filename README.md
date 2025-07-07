@@ -1,7 +1,5 @@
 ![image](https://github.com/user-attachments/assets/36b03dad-61ae-457f-a922-88456cf18a89)# Azhar Portfolio - Personal Website
 
-![Uploading image.png…]()
-
 
 ## 📝 Deskripsi
 
