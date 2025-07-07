@@ -12,7 +12,6 @@ Portofolio pribadi ini dibuat untuk menampilkan karya, keterampilan, dan pengala
 - **Animasi Modern**: Menggunakan AOS (Animate On Scroll) untuk efek visual
 - **Portofolio Interaktif**: Tab untuk menampilkan proyek, sertifikat, dan tech stack
 - **Form Kontak Terintegrasi**: Terhubung dengan Google Sheets untuk menyimpan pesan
-- **Mode Mobile**: Navigasi sidebar untuk tampilan mobile
 
 ## 🛠 Teknologi yang Digunakan
 
