@@ -51,7 +51,7 @@ portfolio-website/
 
 ## 📧 Kontak
 
-- Email: xdzakyz.com
+- Email: xdzakyz.gmail.com
 - GitHub: [xDzaky](https://github.com/xDzaky)
 - Instagram: [@dzakyaz_](https://www.instagram.com/dzakyaz_)
 - TikTok: [@xdzakyx_](https://www.tiktok.com/@xdzakyx_)
